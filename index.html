@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Text Field</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .dotted-btn {
+    background-color: transparent;
+    border: 2px dashed #969696;
+    color: #969696;
+    padding: 1rem;
+    font-size: 0.75rem;
+    font-family: 'Pixel Arial 11', Arial, sans-serif;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    height: 60px;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 650px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .btn-wrapper {
+    flex: 0 0 48%;
+    display: flex;
+  }
+
+  .text-field {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Pixel Arial 11', Arial, sans-serif;
+    color: #969696;
+    border: none; /* No border */
+    resize: none; /* Prevent resizing */
+    min-height: 60px; /* Minimum height to start with */
+    overflow-y: hidden; /* Hide the scrollbar */
+  }
+</style>
+</head>
+<body class="bg-white">
+  <div class="container">
+    <div class="btn-wrapper">
+      <button class="dotted-btn" onclick="updateTextField(this)">Who am I?</button>
+    </div>
+    <div class="btn-wrapper">
+      <button class="dotted-btn" onclick="updateTextField(this)">Cool things I've Done</button>
+    </div>
+    <div class="btn-wrapper">
+      <button class="dotted-btn" onclick="updateTextField(this)">Skillz</button>
+    </div>
+    <div class="btn-wrapper">
+      <button class="dotted-btn" onclick="updateTextField(this)">How do I use this?</button>
+    </div>
+  
+    <textarea class="text-field typed" id="buttonText" readonly>ROHANGPT: Click something!</textarea>
+  </div>
+
+<script>
+function updateTextField(button) {
+  var text = (button.textContent || button.innerText);
+  var textField = document.getElementById('buttonText');
+
+  // Remove the 'typed' class to reset the animation
+  textField.classList.remove('typed');
+
+  // Force reflow/repaint before the new class is added
+  void textField.offsetWidth;
+
+  // Add the 'typed' class again to re-trigger the animation
+  textField.classList.add('typed');
+
+  // Update the value
+  textField.value = "ROHANGPT: " + text;
+
+  // Adjust the height of the textarea
+  textField.style.height = ''; // Reset height to shrink to new content
+  textField.style.height = textField.scrollHeight + 'px'; // Set new height
+}
+
+</script>
+</body>
+</html>
