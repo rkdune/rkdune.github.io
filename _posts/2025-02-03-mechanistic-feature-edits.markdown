@@ -7,17 +7,15 @@ categories: interpretability
 published: true
 ---
 
-*Warning: this is an in-progress preview of my results and conclusions.*
-
 
 ## Motivation
-There has been minimal work studying how SAEs can not just steer model outputs, but actually *improve* their capabilities. Furthermore, there are few clear best practices or empirical rules regarding using SAEs for capablity enhancement. In this work we benchmark a steered Llama 70B on math and honesty and ablate across feature strength and number to ascertain some empirically derived best practices for SAEs.
+There has been minimal work studying how SAEs can not just steer model outputs towards certain styles, but actually *generally improve or transform* their capabilities in things like being more honest or improving fact recollection. Furthermore, there are few clear best practices or empirical rules regarding using SAEs for capablity enhancement. In this work we benchmark a steered Llama 70B on math and honesty tasks and ablate across feature strength and number to ascertain some empirically derived best practices for SAEs.
 
 ## Previous Applications of SAEs in Literature
-Scaling Monosemanticity [3] famously developed Golden Gate Claude, a Claude Sonnet
-model that, by clamping a "Golden Gate Bridge" feature, inserted mention of the bridge
-into every response. SAE unlearning [4] also showed how SAE interventions can force a language model to forget knowledge about biology (measured by the WMDP benchmark) with minimal
-side effects in other domains (measured by the MMLU benchmark). Tilde Research [5] also showed how SAEs boosted performance on niche code generation tasks.
+Scaling Monosemanticity [1] famously developed Golden Gate Claude, a Claude Sonnet
+model that, by clamping a "Golden Gate Bridge" feature in a connected SAE, inserted mention of the bridge
+into every response. SAE unlearning [2] also showed how SAE interventions can force a language model to forget knowledge about biology (measured by the WMDP benchmark) with minimal
+side effects in other domains (measured by the MMLU benchmark). Tilde Research [3] also showed how SAEs boosted performance on niche code generation tasks. The use of benchmarks 
 
 ## Method
 We access a pretrained SAE through Goodfire API, which allows for inference of Llama
@@ -73,7 +71,7 @@ on GSM8K.
 
 ### Unexpected: Small Negative Activations
 
-SAE Unlearning [4] showed how small negative activations essentially have little to no
+SAE Unlearning [2] showed how small negative activations essentially have little to no
 negative effect. We observe a different effect in Figures 2 and 3, where a negatively
 clamped “reasoning” feature at 0.3 strength slightly increased performance on GSM8K.
 We only observe our expected result of negative activations causing negative
@@ -84,37 +82,36 @@ below-baseline performance.
 
 Figure 2 shows how large activations are catastrophic to model output, far exceeding
 any sort of “sweet spot”. This corroborates the general understanding of SAEs. But,
-Figure 4 showing results on truthfulQA completely defy understanding of this. How
-come? We hypothesize that because the human curated feature and the nature of the
-dataset were so closely matched, there is little interference even at high activations.
+Figure 4 showing results on truthfulQA completely defy this, with very high clamping values leading to exceptionally better performance. How come? We hypothesize that there may be two main reasons for this. First, the human curated feature and the scope of the dataset may be much more closely matched, leading to little interference even at high activations. Second, the autointerp done by Goodfire for "Misconception" might be very targeted to the actual features of the model. Looking at the the table of top-k returned featurse from Goodfire's web explorer, you can see that the features are all extremely similar, so much so that the autointerp even labeled the top two features with the exact same description of "common features that need misconceptions".
 
-### Explaining the Difference in Observed Results Between the Two Datasets – Is it All About the Match?
+### Explaining the Difference in Observed Results – Is it All About the Match?
 
 For almost every result observed in GSM8K, the opposite result happened on
 TruthfulQA (compare Figure 2 with Figure 4). We hypothesize that this is due to three
 reasons.
-1. Although relevant to GSM8K, the features selected GSM8K were very broad
-compared to the ones for TruthfulQA. More specificity → Less interference →
-Better results at large activations
+1. Although relevant to the tasks in GSM8K, the features selected GSM8K relatively broad
+compared to the features selected for TruthfulQA. More specificity → Less interference →
+Better results at large activations.
 2. TruthfulQA as a task is much more niche than GSM8K. As a result, intervening
 on “misconception” features covers more proportional ‘area’ of the relevant
-activation space than intervening on “mathematical reasoning”.3. The feature labels of the pretrained SAE we used may not have been perfectly
+activation space than intervening on “mathematical reasoning”.
+3. The autointerp feature labels of the pretrained SAE we used may not have been perfectly
 representative of the actual behavior of the feature, leading to interference.
-For the negative activations slightly increasing performance on GSM8K, this may have
-been due to the expected response format. Positively clamped features generated much
-longer responses. Shorter responses caused by a negatively clamped feature may be
-more likely to obey the expected response format
+4. Benchmarks can be imperfect, especially with regard to response format. On GSM8K, positively clamped features generated much, much longer responses, with the clamped features acting as sort of a "Chain of Thought" feature. Shorter responses caused by a negatively clamped feature or no clamping may be more likely to obey the expected response format. Lastly, GSM8K TruthfulQA use different methods to extract responses.
+
+Overall, this was a very fun set of experiments to run that challenged a lot of my assumptions regarding SAEs. I believe SAEs can turn out to be generally useful to make models more honest and useful, but there is still a lot of work to go before this becomes a predictable process. Understanding the relevant features of your task dataset or benchmark, reducing feature absorption, and high quality autointerp autointerp will all go a long way in this.
 
 ## References
 
-1. [Superposition Hypothesis](https://transformer-circuits.pub/2022/toy_model/index.html)
-2. [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
-3. [Scaling Monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)
-4. [SAE Unlearning](https://arxiv.org/pdf/2410.19278)
-5. [Sieve Regex SAE Intervention](https://www.tilderesearch.com/blog/sieve)
+
+1. [Scaling Monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)
+2. [SAE Unlearning](https://arxiv.org/pdf/2410.19278)
+3. [Sieve Regex SAE Intervention](https://www.tilderesearch.com/blog/sieve)
+4. [Superposition Hypothesis](https://transformer-circuits.pub/2022/toy_model/index.html)
+5. [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
 
 ## System Prompts
-
+The same system prompts were used for both the baseline model and the model with steering.
 {% highlight python %}
 # For GSM8K
 """
@@ -137,7 +134,8 @@ $5 + $3 = $8 total spent
 As you can see from the examples, the correct format is putting your final numerical answer
 after the #### in the format #### <final numerical answer>.
 """
-
+{% endhighlight %}
+{% highlight python %}
 # For TruthfulQA
 """
 You are an assistant helping to provide direct answers to questions. Answer with a single,
