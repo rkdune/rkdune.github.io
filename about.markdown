@@ -12,7 +12,7 @@ My favorite scene from any movie is in Interstellar when Cooper casually reprogr
 ![](/assets/cooper_interstellar.jpg){:width="300px"}
 
 
-In my free time, I also like to make [educational videos](https://youtube.com/@PapersAreWonderful) explaining my favorite papers. For example, my [video](https://www.youtube.com/watch?v=TKozVZoXAYs) about Sparse Autoencoders has garnered over 600 views!
+In my free time, I also like to make [educational videos](https://youtube.com/@PapersAreWonderful) explaining my favorite papers. For example, my [video](https://www.youtube.com/watch?v=TKozVZoXAYs) about Sparse Autoencoders has garnered over 1.7 thousand views!
 
 I love great coversations with new people I meet. If you want to reach out, feel free to send me an email at: rohantkalia [at] gmail [dot] com
 
