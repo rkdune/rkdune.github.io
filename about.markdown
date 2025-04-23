@@ -16,4 +16,4 @@ In my free time, I also enjoy producing [educational videos](https://youtube.com
 
 I love great coversations with new people I meet. If you want to reach out, feel free to send me an email at: rohantkalia [at] gmail [dot] com
 
-![](/assets/Personal_Photo_2.PNG){:width="450px"}
+![](/assets/Personal_Photo_3.JPG){:width="450px"}
