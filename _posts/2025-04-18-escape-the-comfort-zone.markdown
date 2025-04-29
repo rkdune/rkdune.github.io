@@ -2,7 +2,7 @@
 layout: post
 title:  "Escape the Comfort Zone: A Travel Log"
 date:   2025-04-18 12:00:00 -0500
-categories: essay
+categories: blog
 published: true
 ---
 

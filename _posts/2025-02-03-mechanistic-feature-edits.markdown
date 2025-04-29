@@ -3,7 +3,7 @@ layout: post
 title:  "Mechanistic Feature Edits in Language Models Can 
 Increase Truthfulness and Accuracy of Responses"
 date:   2025-01-01 12:00:00 -0500
-categories: interpretability
+categories: research
 published: true
 ---
 
