@@ -29,6 +29,7 @@ rss: false
 feed:
   disable: true
 
+show_excerpts: true
 # Build settings
 theme: minima
 

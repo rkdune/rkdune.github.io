@@ -5,6 +5,8 @@ Increase Truthfulness and Accuracy of Responses"
 date:   2025-01-10 12:00:00 -0500
 categories: research
 published: true
+description: "#research"
+excerpt: "#research-report"
 ---
 
 
