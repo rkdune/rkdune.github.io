@@ -31,6 +31,7 @@ On the Didi (Chinese Uber) ride to the hotel, the fact I was in a different worl
 *Caption: Supports stretching into the horizon…*
 
 ![](/assets/post2images/Moving_Vertical.JPG){:width="450px"}
+
 ![](/assets/post2images/Neighborhood_Vertical.JPG){:width="450px"}
 
 At dinner the first day, I worked up the courage to use the few Mandarin phrases I had learned: “Hello,” “Nice to meet you,” “Thank you,” “This one,” and “My name is.” My pronunciation was corrected a lot—in Mandarin, your intonation or “tones” fundamentally change the meaning of the word. After trying some insane new foods (chicken feet!?), I left dinner with another word I could use: “zǎo ān,” meaning “good morning.”
@@ -39,7 +40,7 @@ At dinner the first day, I worked up the courage to use the few Mandarin phrases
 
 *Caption: Greeting my friends with my new word at breakfast!*
 
-The next couple of days were a blur, from trying a whole new cuisine of food to experiencing beautiful gardens and temples. At Jade Buddha temple, I saw awe-inspiring Buddha statues made with unthinkable levels of craftsmanship. I also witnessed people who had made the pilgrimage to pray at the temple write their wishes on little red cards, which were hung everywhere. Reading some of these cards, I saw hopes for good health, success in chasing their dreams, luck on their upcoming exams -- profoundly *human* things. Although I was a traveler from across the world, walking through the temple I felt connected with these people in a way that transcended where we we each came from. Before I left the temple, I scribbled a note of my own onto a red card, and hung it on the branch of a tree beside the cards of many others.
+The next couple of days were a blur, from trying a whole new cuisine of food to experiencing beautiful gardens and temples. At Jade Buddha temple, I saw awe-inspiring Buddha statues made with unthinkable levels of craftsmanship. I also witnessed people who had made the pilgrimage to pray at the temple write their wishes on little red cards, which were hung everywhere. Reading some of these cards, I saw hopes for good health, success in chasing their dreams, luck on their upcoming exams -- profoundly *human* things. Although I was a traveler from across the world, walking through the temple I felt connected with these people in a way that transcended where we we each came from. Before I left the temple, I scribbled a note of my own onto a red card, and hung it on the branch of a tree beside the hopes of many others.
 
 I found the most joy in striking up conversation with locals, using my steadily increasing vocabulary. At Nanjing Road (a shopping area), I asked some local youth about the most popular Chinese clothing brands. At local coffee shops, I learned new words from baristas. One time -- completely lost and with a dead phone -- I asked multiple strangers for directions. The first few conversations were the hardest, but once I got comfortable with being uncomfortable, these interactions became very fun. Something that eased this process was that everyone I talked to was remarkably friendly, especially if I made a good-faith attempt to introduce myself in their language first.
 
@@ -49,13 +50,13 @@ I found the most joy in striking up conversation with locals, using my steadily 
 
 ![](/assets/post2images/Temple_Composition.JPG){:width="450px"}
 
-*Caption: Jade Buddha temple*
+*Caption: Jade Buddha temple was so serene. There were also red cards tied to all the trees.*
 
 ![](/assets/post2images/Yu_Garden.JPG){:width="450px"}
 
 *Caption: Yu Gardens*
 
-Some of the best insights I had into Chinese life were through conversations taxi drivers. Through my limited vocabulary and Google Translate conversation mode, one driver told me about how he’d been working as a Didi driver for 4 years after he moved to Shanghai, the stresses of his job, and the bad economic year. When I asked him about wealth inequality in China, he flipped my question on its head, professing his admiration for Jack Ma, and in general the Chinese values of saving and working hard. Roughly translated, he stated, "[Jack Ma] keeps a level head when there is confusion." This conversation was one of the best I had in my trip, and taught me a lot about Chinese society that I hadn't known before.
+Some of the best insights I had into Chinese life were through conversations taxi drivers. Through my limited vocabulary and Google Translate conversation mode, one driver told me about how he’d been working as a Didi driver for 4 years after he moved to Shanghai, the stresses of his job, and how he'd been deadling with the bad economic year. When I asked him about wealth inequality in China, he flipped my question on its head, explaining his admiration for Jack Ma, and in general the Chinese values of saving and working hard. Roughly translated, he said, "[Jack Ma] keeps a level head when there is confusion." This conversation was one of the best I had in my trip, and taught me a lot about Chinese society that I hadn't known before.
 
 I also met incredible local shopowners, mostly by stumbling into hole-in-the-wall shops. One morning, as we were biking around the city, my friend Edward found an amazing (and beautifully decorated) coffee shop, where I watched as the owner went through an intricate process to make a specialty filtered coffee -- a true artisan.
 
@@ -69,11 +70,11 @@ Continuing our adventures, we wandered into a into a beautiful-looking shop (whi
 
 *Caption: Meeting Mrs. Xu*
 
-After seeing the insane views from Shanghai tower (the third-tallest building in the world), I went to grab dinner at a food court on the bottom. My friends and I got into a very funny language barrier situation when ordering food, where the cashier couldn’t understand anything we were saying and Google Translate wasn’t helping at all. Just when our noodles seemed lost, a man named Eric swooped into save us, and we ended up eating dinner with him, talking about everything from his interest in materials science to automation in factories.
+After seeing the stunning views from Shanghai tower (the third-tallest building in the world), I went to grab dinner at a food court on the bottom. My friends and I got into a very funny language barrier situation when ordering food, where the cashier couldn’t understand anything we were saying and Google Translate wasn’t helping at all. Just when our noodles seemed lost, a man named Eric swooped into save us, and we ended up eating dinner with him, talking about everything from Roger Federer to his interest in materials science.
 
 ![](/assets/post2images/Dinner_With_Eric.JPG){:width="450px"}
 
-*Caption: Dinner with Eric*
+*Caption: Noodles with Eric*
 
 Midway through my trip, I switched hotels to a technology district farther away from downtown. The event venue Hack Club was using was called Spark Labs, a coworking space for youth focused on AI, and I quickly became fast friends with some of the local students hanging out there.
 
