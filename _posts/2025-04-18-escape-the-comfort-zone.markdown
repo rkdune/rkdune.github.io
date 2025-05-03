@@ -18,9 +18,11 @@ It doesn't start like that though. It begins with a tiny thought planted in your
 
 ![](/assets/post2images/Shipyard_Plane_Cropped.jpg){:width="450px"}
 
-After a nerve-wracking language barrier at immigration, I had officially made it. I started to meet fellow travelers from all over the world at a Starbucks outside baggage claim, who had escaped their own comfort zone. These travelers, from Portugal, India, Hungary, Canada and more, would soon become close friends.
+After a nerve-wracking language barrier at immigration, I had officially made it. I started to meet fellow travelers from all over the world at a Starbucks outside baggage claim, who had escaped their own comfort zone. These travelers, from Portugal, India, Hungary, Canada and more, would soon teach me so much over just a short week.
 
-!["Caption: Youth hackers from all over the world converging in Shanghai."](/assets/post2images/Basecamp.JPG){:width="450px"}
+![](/assets/post2images/Basecamp.JPG){:width="450px"}
+
+*Caption: Youth hackers from all over the world converging in Shanghai*
 
 On the Didi (Chinese Uber) ride to the hotel, the fact I was in a different world became apparent. Outside my window, I saw sprawling metropolis, endless rows of high-rise apartments, and a line of train supports that stretched past the horizon. The most glaring difference: about 90% of cars on the roads were EVs, denoted by their green license plates. The endless city with its towering buildings seemed to envelop me. This was a new, strange land — a country of big proportions. There was a lot to learn.
 
@@ -28,13 +30,16 @@ On the Didi (Chinese Uber) ride to the hotel, the fact I was in a different worl
 
 *Caption: Supports stretching into the horizon…*
 
+![](/assets/post2images/Moving_Vertical.JPG){:width="450px"}
+![](/assets/post2images/Neighborhood_Vertical.JPG){:width="450px"}
+
 At dinner the first day, I worked up the courage to use the few Mandarin phrases I had learned: “Hello,” “Nice to meet you,” “Thank you,” “This one,” and “My name is.” My pronunciation was corrected a lot—in Mandarin, your intonation or “tones” fundamentally change the meaning of the word. After trying some insane new foods (chicken feet!?), I left dinner with another word I could use: “zǎo ān,” meaning “good morning.”
 
 ![](/assets/post2images/Friends_At_Breakfast.JPG){:width="450px"}
 
 *Caption: Greeting my friends with my new word at breakfast!*
 
-The next couple days were a blur, from trying a whole new cuisine of food to experiencing beautiful gardens and temples. At Jade Buddha temple, I saw awe-inspiring budda statues made with unthinkable levels of craftmanship. I also witnessed people who had made the pilgrimage to pray at the temple write their wishes on little red cards, which were hung everywhere. Reading some of these cards, I saw hopes for good health, success in chasing their dreams, luck on their upcoming exams -- profoudly *human* things. Although I was a traveler from across the world, walking through the temple I felt profoundly connected with with these people in a way that transcended where we we each came from. We were all fellow human beings, on this planet together, just trying to make the most out of life.
+The next couple of days were a blur, from trying a whole new cuisine of food to experiencing beautiful gardens and temples. At Jade Buddha temple, I saw awe-inspiring Buddha statues made with unthinkable levels of craftsmanship. I also witnessed people who had made the pilgrimage to pray at the temple write their wishes on little red cards, which were hung everywhere. Reading some of these cards, I saw hopes for good health, success in chasing their dreams, luck on their upcoming exams -- profoundly *human* things. Although I was a traveler from across the world, walking through the temple I felt connected with these people in a way that transcended where we we each came from. Before I left the temple, I scribbled a note of my own onto a red card, and hung it on the branch of a tree beside the cards of many others.
 
 I found the most joy in striking up conversation with locals, using my steadily increasing vocabulary. At Nanjing Road (a shopping area), I asked some local youth about the most popular Chinese clothing brands. At local coffee shops, I learned new words from baristas. One time -- completely lost and with a dead phone -- I asked multiple strangers for directions. The first few conversations were the hardest, but once I got comfortable with being uncomfortable, these interactions became very fun. Something that eased this process was that everyone I talked to was remarkably friendly, especially if I made a good-faith attempt to introduce myself in their language first.
 
@@ -48,41 +53,41 @@ I found the most joy in striking up conversation with locals, using my steadily 
 
 ![](/assets/post2images/Yu_Garden.JPG){:width="450px"}
 
-*Caption: Yu Garden*
+*Caption: Yu Gardens*
 
-Some of the best insights I had into Chinese life were through conversations taxi drivers. Through my limited vocabulary and Google Translate conversation mode, one driver told me about how he’d been working as a Didi driver for 4 years after he moved to Shanghai, the stresses of his job, and the bad economic year. When I asked him about wealth inequality in China, he flipped my question on its head, professing his admiration for Jack Ma, and in general the Chinese values of saving and working hard. Roughly translated, he stated, "[Jack Ma] keeps a level head when there is confusion." This conversation was one of the best I had in my trip, and significantly updated my views of Chinese society.
+Some of the best insights I had into Chinese life were through conversations taxi drivers. Through my limited vocabulary and Google Translate conversation mode, one driver told me about how he’d been working as a Didi driver for 4 years after he moved to Shanghai, the stresses of his job, and the bad economic year. When I asked him about wealth inequality in China, he flipped my question on its head, professing his admiration for Jack Ma, and in general the Chinese values of saving and working hard. Roughly translated, he stated, "[Jack Ma] keeps a level head when there is confusion." This conversation was one of the best I had in my trip, and taught me a lot about Chinese society that I hadn't known before.
 
-I also met incredible local shopowners, mostly by stumbling into hole-in-the-wall shops. My friend Edward found an amazing (and beautifully decorated) coffee shop, where I watched as the owner went through an intricate process to make a specialty filtered coffee -- a true artisan.
+I also met incredible local shopowners, mostly by stumbling into hole-in-the-wall shops. One morning, as we were biking around the city, my friend Edward found an amazing (and beautifully decorated) coffee shop, where I watched as the owner went through an intricate process to make a specialty filtered coffee -- a true artisan.
 
 ![](/assets/post2images/Coffee_Shop.jpg){:width="450px"}
 
-*Caption: Coffee Shop*
+*Caption: This coffee shop was so cool*
 
-After wandering into a beautiful-looking shop (which turned out to be a semi-museum), we met a wonderful local called Mrs. Xu. She insisted we return again, where we met her daughter, as well as the owner of the shop. They kindly taught us how to mix scents, and I learned of the owner’s incredible story of leaving his Chemistry PhD to pursue his dream of starting his own scent shop.
+Continuing our adventures, we wandered into a into a beautiful-looking shop (which turned out to be a museum of scents), where we met possibly the nicest human to ever exist: Mrs. Xu. She insisted we return again, where we met her daughter, as well as the owner of the shop. They kindly taught us how to mix our own scents, and I learned of the owner’s incredible story of leaving his Chemistry PhD to pursue his dream of starting his own scent shop. Meeting two incredible artisans in one day, I felt inspired to carry forward my own craft with the same passion as theirs.
 
 ![](/assets/post2images/Meeting_Mrs_Xu.JPG){:width="450px"}
 
 *Caption: Meeting Mrs. Xu*
 
-After visiting the top of Shanghai tower (the third-tallest building in the world), I went to grab dinner at a food court on the bottom. My friends and I got into a very funny language barrier situation when ordering food, where the cashier couldn’t understand anything we were saying and Google Translate wasn’t helping at all. Just when our noodles seemed lost, a man named Eric swooped into save us, and we ended up eating dinner with him, talking about everything from his interest in materials science to automation in factories.
+After seeing the insane views from Shanghai tower (the third-tallest building in the world), I went to grab dinner at a food court on the bottom. My friends and I got into a very funny language barrier situation when ordering food, where the cashier couldn’t understand anything we were saying and Google Translate wasn’t helping at all. Just when our noodles seemed lost, a man named Eric swooped into save us, and we ended up eating dinner with him, talking about everything from his interest in materials science to automation in factories.
 
 ![](/assets/post2images/Dinner_With_Eric.JPG){:width="450px"}
 
 *Caption: Dinner with Eric*
 
-Midway through my trip, I switched locations to a technology district farther away from downtown. The event venue was called Spark Labs, a coworking space for youth focused on AI, and I quickly became fast friends with some of the local students hanging out there.
+Midway through my trip, I switched hotels to a technology district farther away from downtown. The event venue Hack Club was using was called Spark Labs, a coworking space for youth focused on AI, and I quickly became fast friends with some of the local students hanging out there.
 
-Simon, who hand-solders his own brand of the incredible audio equipment, taught me about synthesizers and music production. This was such a cool experience, because I love artists like Daft Punk but I had no idea how electronic music was actually made. Of course I had to try it to feel as (almost) as cool as Daft Punk, so we worked through how to make beats on VCVRack, and then make those same beats programatically with SuperCollider. My creations were nothing close to "Random Access Memories" (one of my favorite Daft Punk albums), but it was a start and something I could keep tinkering with on the flight back.
+Simon, who hand-solders his own brand of incredible audio equipment, taught me about synthesizers and music production. As a major Daft Punk fan who has no clue how electronic music is made, I knew I had to immediately try the process myself. We worked through how to make beats on VCVRack, and then make those same beats programatically with SuperCollider. My creations were nothing close to "Random Access Memories" (one of my favorite albums), but it was a start and something I could keep tinkering with on the flight back.
 
-I later grabbed dinner with Simon and his friend Koi, where I learned about what it’s like to grow up and go to school in China, as well as the state of AI in their country. Something I took away was to keep my eye on Qwen / Alibaba AI, which seems to have a much more talent and resources than DeepSeek. Just as OpenAI, Google, Anthropic, and more are in a fierce AI race in the United States, there's also a highly competitive race ramping up in China. With mega-apps like WeChat, Alipay, Meituan, etc. that are almost essential in their QR-code enabled consumer economy, there's also interesting paths to distribution for Chinese AI labs.
+I later grabbed dinner with Simon and another Spark Labs member Koi, where I learned about what it’s like to grow up and go to school in China, as well as the state of AI in their country. Something I took away was to keep my eye on Qwen / Alibaba AI, which seems to have much more talent and resources than DeepSeek. With mega-apps like WeChat, Alipay, Meituan, etc. that are almost essential in their QR-code enabled consumer economy, I think it's going to be super interesting to see how these AI labs distribute their products.
 
-The next day I met up with Seven and Klein. Klein and I’s first interaction was very funny, because we ended up coding websites together until we lost track of time. As night fell and we started to filter out of the Spark Labs office space, Klein and Koi invited me to their hacker house, where some of the Spark Labs crew lived. I met the other members of their house, and their cat, which they affectionately called “bro”. After the Spark Labs founder, Ryan, inducted me as an honorary Spark Labs member, we debated theories of consciousness and played Catan late into the night. The Spark Labs organization is *super* awesome, which you can tell just from their awesome motto: "Everything begins with a spark." Although similar entrepreneurship programs and hacker houses are common in US cities like New York and SF, what Spark Labs is doing is new to China. In China, there's new crops of talented young people willing to take risks to start companies, as evidenced by AI startups like Manus that have gone viral even in the Unites States. There's also growing AI industry in technology hubs like Hangzhou, a city I hope to visit when I return. Hanging out with the Spark Labs crew, I definetely felt that sense of ambition, optimism, and "work hard, play hard" spirit.
+The next day, I met up with Spark Labs members Seven and Klein. Klein and I’s first interaction was very funny, because we didn’t do much talking and were just vibing, coding websites together until we lost track of time. As night fell and we started to filter out of the Spark Labs office space, Klein and Koi invited me to their hacker house, where some of the Spark Labs crew lived. I met the other members of their house and their cat “bro”. After the Spark Labs founder, Ryan, inducted me as an honorary Spark Labs member, we debated theories of consciousness and played Catan late into the night. Hanging out with the Spark Labs crew, I definitely felt that sense of ambition, optimism, and "work hard, play hard" spirit.
 
 ![](/assets/post2images/Spark_Labs_Collated.jpg){:width="450px"}
 
 *Caption: Simon teaching me VCVRack (Left), Catan with Seven and Klein (Middle), Spark Labs (Right)*
 
-A traveling tradition I'm trying to start is playing sports with locals in all the cities I visit. Having successfully done this in NYC, LA, and New Delhi, and having a blast each time, I was super excited when I randomly came across some courts where local tech workers were playing pickup basketball. I assembled a squad with two fellow travelers, Bruce and Aaron, and we later joined by a local ByteDance engineer. The games were extremely competitive, and very fun. I learned after the fact that NBA is a huge thing in China, if I couldn't tell already by the extremely clean handles (I regret to admit I got my ankles broken 3 or 4 times by someone who was basically Kyrie Irving) of some of the players. I also saw a lot of NBA jerseys and Jayson Tatum / LeBron James posters around the courts. On water breaks, it was super cool to share our favorite players, teams, and playoff predictions with our opponents.
+A traveling tradition I'm trying to start is playing sports with locals in all the cities I visit. Having successfully done this in NYC, LA, and New Delhi, I was super excited when I randomly came across some courts where local tech workers were playing pickup basketball. I assembled a squad with two fellow Hack Clubbers, Bruce and Aaron, and we were later joined by a local ByteDance engineer. I learned after the fact that NBA is a huge thing in China, if I couldn't tell already by the extremely clean handles (I regret to admit I got my ankles broken 3 or 4 times by someone who was basically Kyrie Irving) of some of the players. I also saw a lot of NBA jerseys and Jayson Tatum / LeBron James posters around the courts. On water breaks, it was super cool to share our favorite players, teams, and playoff predictions with our opponents.
 
 ![](/assets/post2images/Locals_Basketball.JPG){:width="450px"}
 
