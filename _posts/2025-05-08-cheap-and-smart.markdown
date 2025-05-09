@@ -42,4 +42,4 @@ In sports, can my tennis racket tell me my personal optimal string tension and s
 
 When I’m producing my YouTube videos, can my video editor proactively clean my audio, cut bad takes, and keyframe animations? Can my camera automatically find my best photos, or even better, suggest a composition and setting profile?
 
-If we innovate over upgrading, the possibilities are endless.
+If we choose innovation over upgrades, the possibilities are endless.
