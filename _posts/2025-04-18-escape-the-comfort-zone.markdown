@@ -10,8 +10,6 @@ excerpt: "#blog"
 
 *Context: In April 2025, I went on an adventure with Hack Club to Shanghai, immersing myself in the city, and meeting other international Hack Clubbers and locals alike. What follows is a travel log from that experience, focused on the times I pushed past the comfort zone to connect with local students, shopowners, tech workers, and more.*
 
-“Where your fear is, there is your task” — Carl Jung
-
 There’s something magical to be said about “trusting the process." When you have a feeling in your heart that things will turn out great, fear, uncertainty — they all just fade away.
 
 It doesn't start like that though. It begins with a tiny thought planted in your mind, a “what if”. *What if, despite all the obstacles in my way, I made it to Shanghai to have the adventure of a lifetime?* That little thought grew until it had conquered both mind and heart. Fear was replaced with confidence, and 3 months later I found myself looking out of a plane window at shipyards as I descended into Shanghai.
