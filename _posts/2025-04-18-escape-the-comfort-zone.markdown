@@ -22,7 +22,7 @@ After a nerve-wracking language barrier at immigration, I had officially made it
 
 *Caption: Youth hackers from all over the world converging in Shanghai*
 
-On the Didi (Chinese Uber) ride to the hotel, the fact I was in a different world became apparent. Outside my window, I saw sprawling metropolis, endless rows of high-rise apartments, and a line of train supports that stretched past the horizon. The most glaring difference: about 90% of cars on the roads were EVs, denoted by their green license plates. The endless city with its towering buildings seemed to envelop me. This was a new, strange land — a country of big proportions. There was a lot to learn.
+On the Didi (Chinese Uber) ride to the hotel, the fact I was in a different world became apparent. Outside my window, I saw sprawling metropolis, endless rows of high-rise apartments, and a line of train supports that stretched past the horizon. The most glaring difference: about 90% of cars on the roads were EVs, denoted by their green license plates. The endless city with its towering buildings seemed to envelop me. This was a new, strange land — a country of big proportions. There was a lot to explore.
 
 ![](/assets/post2images/Supports_Horizon.JPG){:width="450px"}
 
