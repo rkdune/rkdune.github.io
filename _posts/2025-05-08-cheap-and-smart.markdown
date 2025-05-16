@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Cheap and Smart: Breaking the Cost/Capability Tradeoff"
+title:  "Cheap and Smart: A Scaling Law for Innovation"
 date:   2025-05-08 12:00:00 -0500
 categories: blog
 published: true
-excerpt: "#blog"
+excerpt: "#blog"    
 ---
 
 We have innovation all wrong. What we’ve come to think of as innovation is, in reality, an upgrade. Upgrades are useful because they advance the capability frontier. But they're not changing the game. The difference between an iPhone today and one 5 years ago is much less than the difference between the first and fifth iPhone. If you consider the first 5 years of digital camera innovation, the last 5 years would look like nothing has changed.  
