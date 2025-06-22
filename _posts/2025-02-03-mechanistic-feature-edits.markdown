@@ -7,6 +7,7 @@ categories: research
 published: true
 description: "#research"
 excerpt: "#research-report"
+tags: ["research-report"]
 ---
 
 

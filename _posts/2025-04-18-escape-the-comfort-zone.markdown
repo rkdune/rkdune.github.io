@@ -6,6 +6,7 @@ categories: blog
 published: true
 description: "#blog"
 excerpt: "#blog"
+tags: ["blog"]
 ---
 
 *In April 2025, I went on an adventure with Hack Club to Shanghai, immersing myself in the city and meeting other international Hack Clubbers and locals alike. What follows is a travel log from that experience, focused on the times I pushed past the comfort zone to connect with local students, shopowners, tech workers, and more.*
