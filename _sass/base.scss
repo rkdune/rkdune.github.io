@@ -89,6 +89,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }
 
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+  }
+}
+
 .wrapper {
   padding: 0 1rem;
 }
@@ -190,8 +201,8 @@ hr {
   }
   
   .post-title {
-    margin: 0 0 0.1rem 0;
-    font-size: 2rem;
+    margin: 0 0 0.3rem 0;
+    font-size: 1.5rem;
     line-height: 1.2;
     color: var(--text-color);
   }
