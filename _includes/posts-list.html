@@ -1,6 +1,6 @@
 {% for post in site.posts %}
   <article class="post-preview">
-    <time class="post-date">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <time class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
     <h2 class="post-title">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
