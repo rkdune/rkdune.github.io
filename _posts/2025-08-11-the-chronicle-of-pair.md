@@ -5,7 +5,7 @@ date:   2025-08-11 12:00:00 -0500
 categories: blog
 published: true
 excerpt: "#blog"
-tags: ["blog", "travel"]
+tags: ["travel"]
 ---
 
 > “This is the land of Narnia,' said the Faun, 'where we are now; all that lies between the lamp-post and the great castle of Cair Paravel on the eastern sea.”
