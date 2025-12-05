@@ -120,18 +120,13 @@ a:hover {
 
 .post-link-item::before {
   content: '·';
-  color: var(--muted-color);
+  color: var(--link-color);
   line-height: 1.5;
 }
 
 .post-link {
   font-size: 20px;
   line-height: 1.5;
-  color: var(--muted-color);
-}
-
-.post-link:hover {
-  color: var(--text-color);
 }
 
 /* Footer */
