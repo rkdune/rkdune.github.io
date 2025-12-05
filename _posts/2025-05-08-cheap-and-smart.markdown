@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A New Type of Product I'm Excited About: Cheap and Smart"
+title:  "Cheap and Smart"
 date:   2025-05-08 12:00:00 -0500
 categories: blog
 published: true

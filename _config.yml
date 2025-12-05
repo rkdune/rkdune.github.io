@@ -1,5 +1,5 @@
-title: Hi, I'm Rohan
-description: "Curiosity driven. Movie enthusiast. Trying to get better at photography. Interested in AI interpretability, alignment,  and reinforcement learning."
+title: Rohan Kalia
+description: "I’m interested by language model pretraining science, continual learning, infrastructure for AI agents, and writing beautiful software. Also, a movie enthusiast and amateur photographer."
 encoding: utf-8
 
 # Theme mode setting - "dark" or "light"
@@ -11,7 +11,8 @@ profile_image: /assets/profile_square.jpg
 profile_image_alt: "Author profile picture"
 
 # Social links
-email: rohantkalia [at] gmail [dot] com
+email: rohantkalia@gmail.com
 github_username: rkdune
+twitter_username: rohankalia_
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]

@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Mechanistic Feature Edits in Language Models Can 
-Increase Truthfulness and Accuracy of Responses"
+title:  "Investigations into Sparse Autoencoder Steering"
 date:   2025-01-10 12:00:00 -0500
 categories: research
 published: true
