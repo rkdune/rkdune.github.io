@@ -1,9 +1,3 @@
-PATH
-  remote: .
-  specs:
-    tonic-starter (0.1.0)
-      jekyll (>= 3.9.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -87,9 +81,9 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  bundler
+  jekyll (~> 4.3)
   rouge
-  tonic-starter!
+  webrick
 
 BUNDLED WITH
    2.6.3
