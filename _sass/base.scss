@@ -62,6 +62,16 @@ a:hover {
   position: relative;
 }
 
+.header-image {
+  margin-top: 1.5rem;
+}
+
+.header-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
 .title-with-popup {
   position: relative;
   display: inline-block;
@@ -83,7 +93,7 @@ a:hover {
   width: 175px;
   height: 175px;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 8px;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.2s ease, visibility 0.2s ease;
