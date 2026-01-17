@@ -17,7 +17,7 @@ There has been minimal work studying how SAEs can not just steer model outputs t
 Scaling Monosemanticity [1] famously developed Golden Gate Claude, a Claude Sonnet
 model that, by clamping a "Golden Gate Bridge" feature in a connected SAE, inserted mention of the bridge
 into every response. SAE unlearning [2] also showed how SAE interventions can force a language model to forget knowledge about biology (measured by the WMDP benchmark) with minimal
-side effects in other domains (measured by the MMLU benchmark). Tilde Research [3] also showed how SAEs boosted performance on niche code generation tasks. The use of benchmarks 
+side effects in other domains (measured by the MMLU benchmark). Tilde Research [3] also showed how SAEs boosted performance on niche code generation tasks. 
 
 ## Method
 We access a pretrained SAE through Goodfire API, which allows for inference of Llama
