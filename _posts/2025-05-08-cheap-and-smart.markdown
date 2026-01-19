@@ -28,11 +28,11 @@ A great pre-LLMs example of this is AirPods. Before AirPods, if you wanted premi
 
 An example I've benefited from myself is AlphaFold, an AI algorithm that can predict the 3D structure of a protein in seconds with atomic accuracy. Previously, scientists had to do a time-consuming and costly process that could take days or weeks: make homology models, culture bacteria, insert the protein into the bacteria’s genome, induce expression of the protein, and characterize it with tests like NMR spectroscopy. The disruptive impact of AlphaFold was so great that when you talk to biochemists, they will regularly use the term “pre-AlphaFold world” to describe the experimental procedures they had to do previously to get any sort of data.
 
-What else can we make cheap and smart? In high school, I had a vision that $100 dollar retinal cameras could be as good as a $100,000 direct opthalmocope. I think the same can be done with other medical technology in really exciting ways. For example, cheaper low-field MRIs with AI can perhaps be as good as their expensive counterparts.  Or, genetic sequencing and an algorithm can one day predict everything aspect of your health.
+What else can we make cheap and smart? In high school, I had a vision that a $100 dollar Raspberry Pi system could be as good as a $100,000 direct retinal ophthalmoscope. I think the same can be done with other medical technology in really exciting ways. For example, cheaper low-field MRIs with AI can perhaps be as good as their expensive counterparts.  Or, genetic sequencing with AI can one day predict everything aspect of your health.
 
 As a tennis player, I would enjoy a racket that could tell me my optimal string tension and swing weight. Perhaps my running shoe can adaptively pace me, or spot bad form that will lead to injury.
 
-When I’m producing my YouTube videos, I want a video editor proactively clean my audio, cut bad takes, and keyframes animations. And I want a camera that automatically finds my best photos.
+When I’m producing my YouTube videos, I want a video editor that proactively cleans my audio, cuts bad takes, and keyframes animations. And I want a camera that automatically finds my best photos.
 
 The best ideas haven't even been though of yet.
 
