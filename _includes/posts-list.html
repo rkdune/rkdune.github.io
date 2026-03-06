@@ -1,7 +1,11 @@
 <ul class="post-links">
 {% for post in site.posts %}
   <li class="post-link-item">
-    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.external_url %}
+      <a class="post-link" href="{{ post.external_url }}">{{ post.title }}</a>
+    {% else %}
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
