@@ -9,7 +9,7 @@ theme_mode: light
 
 # Profile image settings
 # Uncomment and update these lines to show a profile image
-profile_image: /assets/profile_square.jpg
+profile_image: /assets/profile_polaroid.png
 profile_image_alt: "Author profile picture"
 
 # Social links
