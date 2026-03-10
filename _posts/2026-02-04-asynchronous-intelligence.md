@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Asynchronous Intelligence"
-date:   2026-03-06 12:00:00 -0500
+date:   2026-02-04 12:00:00 -0500
 categories: blog
 published: true
 excerpt: "#blog"
