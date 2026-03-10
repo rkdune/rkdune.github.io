@@ -8,7 +8,7 @@ excerpt: "#blog"
 tags: ["travel"]
 ---
 
-> “This is the land of Narnia,' said the Faun, 'where we are now; all that lies between the lamp-post and the great castle of Cair Paravel on the eastern sea.”
+> “This is the land of Narnia,” said the Faun, “where we are now; all that lies between the lamp-post and the great castle of Cair Paravel on the eastern sea.”
 > 
 > 
 > **C.S. Lewis, The Chronicles of Narnia**
