@@ -3,23 +3,16 @@ layout: minimal
 ---
 
 <article class="post">
-  <nav class="post-nav">
-    <a href="{{ '/' | relative_url }}" class="back-link">← back</a>
-  </nav>
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <div class="post-meta">
-      <!-- <time class="post-date">{{ page.date | date: "%Y-%m-%d" }}</time> -->
-      {% if page.tags %}
-        <!-- <div class="post-tags">
-          {% for tag in page.tags %}
-            <span class="tag">#{{ tag }}</span>
-          {% endfor %}
-        </div> -->
-      {% endif %}
+  <div class="post-header-row">
+    <div class="post-header-left">
+      <a href="{{ '/' | relative_url }}" class="home-link">Home</a>
     </div>
-  </header>
-  
+    <div class="post-header-right">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <time class="post-date">{{ page.date | date: "%b '%y" }}</time>
+    </div>
+  </div>
+
   <div class="post-content">
     {{ content }}
   </div>

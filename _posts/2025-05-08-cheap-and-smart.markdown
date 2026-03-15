@@ -2,7 +2,7 @@
 layout: post
 title:  "Cheap and Smart"
 date:   2025-05-08 12:00:00 -0500
-categories: blog
+categories: AI
 published: true
 excerpt: "#blog"
 tags: ["blog"]

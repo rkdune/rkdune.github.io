@@ -2,7 +2,7 @@
 layout: post
 title:  "Whale Watching"
 date:   2026-03-01 00:00:00 -0500
-categories: blog
+categories: photos
 published: true
 excerpt: "#blog"
 ---
