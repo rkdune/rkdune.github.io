@@ -4,9 +4,6 @@ encoding: utf-8
 url: "https://rohankalia.dev"
 baseurl: ""
 
-# Theme mode setting - "dark" or "light"
-theme_mode: light
-
 # Profile image settings
 # Uncomment and update these lines to show a profile image
 profile_image: /assets/profile_polaroid.png

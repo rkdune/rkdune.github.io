@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Escape the Comfort Zone: A Travel Log"
+display_title: "Shanghai"
 date:   2025-04-18 12:00:00 -0500
-categories: blog
+categories: photos
 published: true
 description: "#blog"
 excerpt: "#blog"

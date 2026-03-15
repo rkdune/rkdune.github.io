@@ -1,11 +1,12 @@
-<ul class="post-links">
+<div class="post-links">
 {% for post in site.posts %}
-  <li class="post-link-item">
+  <div class="post-link-item">
+    <span class="post-category">{{ post.categories | first }}</span>
     {% if post.external_url %}
       <a class="post-link" href="{{ post.external_url }}">{{ post.title }}</a>
     {% else %}
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.display_title | default: post.title }}</a>
     {% endif %}
-  </li>
+  </div>
 {% endfor %}
-</ul>
+</div>

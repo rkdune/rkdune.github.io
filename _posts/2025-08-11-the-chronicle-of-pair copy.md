@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "The Chronicle of PAIR (Told In Photos)"
+display_title: "Nettlecombe"
 date:   2025-08-11 12:00:00 -0500
-categories: blog
+categories: photos
 published: true
 excerpt: "#blog"
 tags: ["travel"]
