@@ -3,6 +3,7 @@ layout: post
 title:  "Investigations into Sparse Autoencoder Steering"
 display_title: "Sparse Autoencoders"
 date:   2025-01-10 12:00:00 -0500
+permalink: /saes/
 categories: AI
 published: true
 description: "#research"
