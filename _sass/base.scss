@@ -147,6 +147,11 @@ a:hover {
   text-decoration: none;
 }
 
+a.post-category:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
 .post-link {
   font-size: 20px;
   line-height: 28px;
