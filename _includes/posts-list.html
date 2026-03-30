@@ -1,9 +1,13 @@
 <div class="post-links">
 {% for post in site.posts %}
   <div class="post-link-item">
-    <span class="post-category">{{ post.categories | first }}</span>
+    {% if post.category_url %}
+      <a class="post-category" href="{{ post.category_url }}" target="_blank" rel="noopener noreferrer">{{ post.categories | first }}</a>
+    {% else %}
+      <span class="post-category">{{ post.categories | first }}</span>
+    {% endif %}
     {% if post.external_url %}
-      <a class="post-link" href="{{ post.external_url }}">{{ post.title }}</a>
+      <a class="post-link" href="{{ post.external_url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
     {% else %}
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.display_title | default: post.title }}</a>
     {% endif %}
