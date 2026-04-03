@@ -158,6 +158,15 @@ a.post-category:hover {
   text-decoration: none;
 }
 
+.external-indicator {
+  color: var(--muted-color);
+  display: inline-block;
+  margin-left: 0.18em;
+  width: 0.72em;
+  height: 0.72em;
+  vertical-align: 0.02em;
+}
+
 .post-link:hover {
   text-decoration: underline;
   color: var(--link-color);
