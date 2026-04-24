@@ -7,6 +7,7 @@ categories: AI
 published: true
 excerpt: "#blog"
 tags: ["blog"]
+hide_from_home: true
 ---
 
 A lot of the new products we see today are upgrades.

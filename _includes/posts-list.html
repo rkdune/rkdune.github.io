@@ -1,5 +1,6 @@
 <div class="post-links">
 {% for post in site.posts %}
+  {% unless post.hide_from_home %}
   <div class="post-link-item">
     {% if post.category_url %}
       <a class="post-category" href="{{ post.category_url }}" target="_blank" rel="noopener noreferrer">{{ post.categories | first }}</a>
@@ -12,5 +13,6 @@
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.display_title | default: post.title }}</a>
     {% endif %}
   </div>
+  {% endunless %}
 {% endfor %}
 </div>
