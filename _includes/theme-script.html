@@ -1,0 +1,35 @@
+<script>
+  (function() {
+    var storageKey = "vaduz-theme";
+    var root = document.documentElement;
+    var toggle = document.querySelector("[data-theme-toggle]");
+
+    if (!toggle) {
+      return;
+    }
+
+    function getTheme() {
+      return root.dataset.theme === "light" ? "light" : "dark";
+    }
+
+    function syncToggle(theme) {
+      var nextTheme = theme === "light" ? "dark" : "light";
+      toggle.setAttribute("aria-pressed", theme === "light" ? "true" : "false");
+      toggle.setAttribute("aria-label", "Switch to " + nextTheme + " theme");
+      toggle.setAttribute("title", "Switch to " + nextTheme + " theme");
+    }
+
+    syncToggle(getTheme());
+
+    toggle.addEventListener("click", function() {
+      var nextTheme = getTheme() === "light" ? "dark" : "light";
+      root.dataset.theme = nextTheme;
+      syncToggle(nextTheme);
+
+      try {
+        localStorage.setItem(storageKey, nextTheme);
+      } catch (error) {
+      }
+    });
+  })();
+</script>

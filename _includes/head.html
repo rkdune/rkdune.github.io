@@ -1,5 +1,19 @@
 <head>
     <title>{{ page.title }} | {{ site.title }}</title>
+    <script>
+      (function() {
+        try {
+          var theme = localStorage.getItem("vaduz-theme");
+          if (theme === "light" || theme === "dark") {
+            document.documentElement.dataset.theme = theme;
+          }
+        } catch (error) {
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/ash-theme.css' | relative_url }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
