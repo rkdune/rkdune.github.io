@@ -1,6 +1,7 @@
 /* Dark serif theme */
 
 :root {
+  color-scheme: dark;
   --bg-color: #12110F;
   --text-color: #FFFFFF;
   --muted-color: #7D7D7D;
@@ -10,6 +11,21 @@
   --code-bg: #1a1917;
   --code-border: #2a2825;
   --blockquote-border: #7D7D7D;
+  --body-font-size: 18px;
+  --body-line-height: 24px;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg-color: #FFFFFF;
+  --text-color: #000000;
+  --muted-color: #5C5C5C;
+  --link-color: #000000;
+  --link-hover-color: #5C5C5C;
+  --divider-color: #E5E5E5;
+  --code-bg: #F6F6F6;
+  --code-border: #DDDDDD;
+  --blockquote-border: #8A8A8A;
 }
 
 *,
@@ -29,9 +45,9 @@ body {
   min-height: 100vh;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: "Times New Roman", "TimesNewRomanPSMT", serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
   font-weight: 400;
 }
 
@@ -77,10 +93,10 @@ a:hover {
 
 .site-title {
   margin: 0;
-  font-size: 20px;
+  font-size: var(--body-font-size);
   font-weight: 400;
   text-decoration: underline;
-  line-height: 28px;
+  line-height: var(--body-line-height);
   cursor: pointer;
 }
 
@@ -120,8 +136,22 @@ a:hover {
   transition: color 0.2s ease;
 }
 
+.icon-button {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
 .icon-link:hover {
   color: var(--text-color);
+}
+
+.icon-button:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 /* Posts list */
@@ -153,8 +183,8 @@ a.post-category:hover {
 }
 
 .post-link {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
   text-decoration: none;
 }
 
@@ -185,11 +215,11 @@ a.post-category:hover {
 }
 
 .about-heading {
-  font-size: 20px;
+  font-size: var(--body-font-size);
   font-weight: 400;
   text-decoration: underline;
   margin: 0;
-  line-height: 28px;
+  line-height: var(--body-line-height);
   cursor: pointer;
 }
 
@@ -207,9 +237,14 @@ a.post-category:hover {
   margin-bottom: 13px;
 }
 
-.about-description {
+.about-copy {
   margin: 0 0 30px 0;
-  line-height: 28px;
+}
+
+.about-description {
+  margin: 0;
+  line-height: var(--body-line-height);
+  text-indent: 1.25rem;
 }
 
 .about-description a:hover {
@@ -278,8 +313,8 @@ a.post-category:hover {
 .post-header-left .home-link {
   color: var(--muted-color);
   text-decoration: underline;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
 }
 
 .post-header-left .home-link:hover {
@@ -291,27 +326,27 @@ a.post-category:hover {
 }
 
 .post-title {
-  font-size: 20px;
+  font-size: var(--body-font-size);
   font-weight: 400;
   margin: 0;
   text-decoration: underline;
-  line-height: 28px;
+  line-height: var(--body-line-height);
 }
 
 .post-date {
   color: var(--muted-color);
-  font-size: 20px;
-  line-height: 28px;
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
 }
 
 .post-content {
-  line-height: 28px;
+  line-height: var(--body-line-height);
 }
 
 .post-content h2,
 .post-content h3,
 .post-content h4 {
-  font-size: 20px;
+  font-size: var(--body-font-size);
   font-weight: 400;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
