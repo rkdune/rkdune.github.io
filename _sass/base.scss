@@ -45,7 +45,7 @@ body {
   min-height: 100vh;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: Georgia, serif;
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
   font-weight: 400;
@@ -302,41 +302,61 @@ a.post-category:hover {
   margin-top: 0;
 }
 
-.post-header-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 29px;
-  margin-bottom: 29px;
+.post-header {
+  margin-bottom: 40px;
 }
 
-.post-header-left .home-link {
+.post-header-top {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 56px;
+}
+
+.home-link {
   color: var(--muted-color);
   text-decoration: underline;
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
 }
 
-.post-header-left .home-link:hover {
+.home-link:hover {
   color: var(--text-color);
 }
 
-.post-header-right {
-  text-align: left;
+.post-header-content {
+  margin: 0 auto;
+  max-width: 34rem;
+  text-align: center;
 }
 
 .post-title {
   font-size: var(--body-font-size);
   font-weight: 400;
   margin: 0;
-  text-decoration: underline;
   line-height: var(--body-line-height);
+  font-style: italic;
 }
 
 .post-date {
+  display: block;
   color: var(--muted-color);
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
+  margin-top: 8px;
+}
+
+@media (max-width: 640px) {
+  .post-header {
+    margin-bottom: 32px;
+  }
+
+  .post-header-top {
+    margin-bottom: 40px;
+  }
+
+  .post-title {
+    font-size: var(--body-font-size);
+  }
 }
 
 .post-content {
