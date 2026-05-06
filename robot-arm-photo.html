@@ -1,0 +1,46 @@
+---
+layout: null
+title: Robot Arm Photo
+permalink: /robot-arm-photo
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        background: #12110f;
+      }
+
+      img {
+        display: block;
+        max-width: min(100%, 1200px);
+        max-height: calc(100vh - 48px);
+        width: auto;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="{{ '/assets/robot-arm-photo.jpg' | relative_url }}"
+      alt="Robot arm holding a small sign"
+    >
+  </body>
+</html>
