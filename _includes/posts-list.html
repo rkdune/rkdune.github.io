@@ -1,18 +1,27 @@
 <div class="post-links">
-{% for post in site.posts %}
-  {% unless post.hide_from_home %}
-  <div class="post-link-item">
-    {% if post.category_url %}
-      <a class="post-category" href="{{ post.category_url }}" target="_blank" rel="noopener noreferrer">{{ post.categories | first }}</a>
-    {% else %}
-      <span class="post-category">{{ post.categories | first }}</span>
-    {% endif %}
-    {% if post.external_url %}
-      <a class="post-link" href="{{ post.external_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ post.title }} (external link)">{{ post.title }} <svg class="external-indicator" aria-hidden="true" viewBox="0 0 10 10"><path d="M1 9L8 2M5 1H9V5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="miter"/></svg></a>
-    {% else %}
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.display_title | default: post.title }}</a>
-    {% endif %}
+{% assign visible_posts = site.posts | where_exp: "post", "post.hide_from_home != true" %}
+{% assign grouped = visible_posts | group_by_exp: "post", "post.categories | first" %}
+{% assign ai_groups = grouped | where: "name", "AI" %}
+{% assign other_groups = grouped | where_exp: "g", "g.name != 'AI'" | sort: "name" %}
+{% assign ordered_groups = ai_groups | concat: other_groups %}
+{% for group in ordered_groups %}
+  {% assign first = group.name | slice: 0, 1 | upcase %}
+  {% assign rest_size = group.name.size | minus: 1 %}
+  {% assign rest = group.name | slice: 1, rest_size %}
+  {% assign label = first | append: rest %}
+  <div class="post-group">
+    <h3 class="post-group-heading">{{ label }}</h3>
+    {% assign sorted_posts = group.items | sort: "date" | reverse %}
+    {% for post in sorted_posts %}
+      <div class="post-link-item">
+        {% if post.external_url %}
+          <a class="post-link" href="{{ post.external_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ post.title }} (external link)">{{ post.title }} <svg class="external-indicator" aria-hidden="true" viewBox="0 0 10 10"><path d="M1 9L8 2M5 1H9V5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="miter"/></svg></a>
+        {% else %}
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.display_title | default: post.title }}</a>
+        {% endif %}
+        <span class="post-date">{{ post.date | date: "%b %Y" }}</span>
+      </div>
+    {% endfor %}
   </div>
-  {% endunless %}
 {% endfor %}
 </div>
