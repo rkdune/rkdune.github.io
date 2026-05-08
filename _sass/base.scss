@@ -54,12 +54,14 @@ body {
 a {
   color: var(--link-color);
   text-decoration: underline;
+  text-decoration-color: var(--muted-color);
+  text-underline-offset: 0.18em;
   font-weight: 400;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 a:hover {
-  color: var(--link-hover-color);
+  text-decoration-color: var(--link-color);
 }
 
 .page-container {
@@ -94,8 +96,7 @@ a:hover {
 .site-title {
   margin: 0;
   font-size: var(--body-font-size);
-  font-weight: 400;
-  text-decoration: underline;
+  font-weight: 700;
   line-height: var(--body-line-height);
   cursor: pointer;
 }
@@ -188,7 +189,6 @@ a:hover {
 .post-link {
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
-  text-decoration: none;
 }
 
 .post-date {
@@ -205,11 +205,6 @@ a:hover {
   vertical-align: 0.02em;
 }
 
-.post-link:hover {
-  text-decoration: underline;
-  color: var(--link-color);
-}
-
 /* About section */
 .about-section {
   margin-top: 68px;
@@ -224,8 +219,7 @@ a:hover {
 
 .about-heading {
   font-size: var(--body-font-size);
-  font-weight: 400;
-  text-decoration: underline;
+  font-weight: 700;
   margin: 0;
   line-height: var(--body-line-height);
   cursor: pointer;
