@@ -348,6 +348,10 @@ a:hover {
 }
 
 @media (max-width: 640px) {
+  .post-links .post-date {
+    display: none;
+  }
+
   .post-header {
     margin-bottom: 32px;
   }
