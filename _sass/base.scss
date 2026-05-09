@@ -82,12 +82,6 @@ a:hover {
   margin-bottom: 29px;
 }
 
-.site-header .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
 .title-with-popup {
   position: relative;
   display: inline-block;
@@ -122,11 +116,12 @@ a:hover {
   visibility: visible;
 }
 
-/* Header icons */
-.header-icons {
+/* Icon bar */
+.icon-bar {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .icon-link {
@@ -208,6 +203,10 @@ a:hover {
 /* About section */
 .about-section {
   margin-top: 68px;
+}
+
+.about-section .icon-bar {
+  margin-bottom: 20px;
 }
 
 .about-divider {
@@ -350,6 +349,10 @@ a:hover {
 @media (max-width: 640px) {
   .post-links .post-date {
     display: none;
+  }
+
+  .about-section .icon-bar {
+    margin-bottom: 16px;
   }
 
   .post-header {
