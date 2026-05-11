@@ -6,6 +6,7 @@ layout: default
 {% include posts-list.html %}
 
 <div class="about-section">
+  {% include icon-bar.html %}
   <hr class="about-divider">
   <h2 class="about-heading" onclick="this.parentElement.classList.toggle('open')">About</h2>
   <div class="about-content">
