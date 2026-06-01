@@ -20,7 +20,7 @@ excerpt: "#blog"
 > **Paulo Coelho, The Alchemist**
 >
 
-Some photos I took with my Canon off Newport Beach, California. It was suprisingly hard to catch the whales through my viewfinder in time, but I'm pretty happy with some of the photos I got. Thank you to Professor Rob Phillips for organizing this trip.
+Some photos I took with my Canon off Newport Beach, California. It was suprisingly hard to catch the whales through my viewfinder in time, but I'm pretty happy with some of the photos I got. Thank you to Rob & Kian for organizing this trip.
 
 ![](/assets/whale_images/IMG_6607.JPG){:width="450px"}
 ![](/assets/whale_images/IMG_6609.JPG){:width="450px"}
