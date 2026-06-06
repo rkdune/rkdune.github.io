@@ -13,6 +13,7 @@ layout: default
     <div class="about-copy">
       <p class="about-description">I'm interested by robotics, pretraining science, continual learning, AI infra, and writing beautiful software. Also, a movie enthusiast and amateur photographer. I aim to seek craft, simplicity, and childlike wonder in my pursuits.</p>
       <p class="about-description">Creator of <a href="https://www.asymmetric.sh">asymmetric.sh</a>, <a href="https://www.beepbooprobotics.com">beepbooprobotics.com</a> and <a href="https://www.youtube.com/@PapersAreWonderful">papersarewonderful</a>.</p>
+      <p class="about-description">Leave me <a href="/feedback">anonymous feedback</a>.</p>
     </div>
     <img src="/assets/whale_images/IMG_6607.JPG" alt="Whale watching" class="about-image">
   </div>

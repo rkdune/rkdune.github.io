@@ -4,18 +4,26 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {% assign redirect_target = page.redirect_to %}
+    {% if redirect_target contains '://' %}
+      {% assign redirect_url = redirect_target %}
+      {% assign canonical_url = redirect_target %}
+    {% else %}
+      {% assign redirect_url = redirect_target | relative_url %}
+      {% assign canonical_url = redirect_target | absolute_url %}
+    {% endif %}
     <meta charset="utf-8">
     <title>Redirecting...</title>
-    <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
-    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <meta http-equiv="refresh" content="0; url={{ redirect_url }}">
     <script>
-      window.location.replace("{{ page.redirect_to | relative_url }}");
+      window.location.replace("{{ redirect_url }}");
     </script>
   </head>
   <body>
     <p>
       Redirecting to
-      <a href="{{ page.redirect_to | relative_url }}">{{ page.redirect_to }}</a>.
+      <a href="{{ redirect_url }}">{{ page.redirect_to }}</a>.
     </p>
   </body>
 </html>
